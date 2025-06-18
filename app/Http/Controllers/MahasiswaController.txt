@@ -1,0 +1,9 @@
+MahasiswaController
+FoodController
+
+$datamahasiswa = Mahasiswa::join('jurusan as a','a.id','=','mahasiswa.jurusan_id')
+		 ->where('mahasiswa.id','=',$id)
+		 ->get();
+		
+
+return view('mahasiswa.show', compact('datamahasiswa'));
