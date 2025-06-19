@@ -1,1 +1,1 @@
-Authentication 57:40 for potential implementations of food detail and exercise detail
+Website E-Nutritionist dibuat untuk membantu individu yang ingin memperhatikan gizi dan nutrisi mereka serta ingin melaksanakan diet
