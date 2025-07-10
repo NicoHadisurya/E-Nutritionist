@@ -6,6 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home',[App\Http\Controllers\UserController::class,'index']);
+
 Route::get('/set-locale/{locale}', function($locale){
     if(in_array($locale,['en','id'])){
         //create session
